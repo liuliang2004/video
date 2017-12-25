@@ -1,0 +1,12 @@
+﻿  Building Custom Rule D:/video/client/cmpeg-master/examples/CMakeLists.txt
+  CMake does not need to re-run because D:/video/client/cmpeg-master/build/examples/CMakeFiles/generate.stamp is up-to-date.
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"D:\video\client\cmpeg-master" /I"D:\video\client\cmpeg-master\thirdparty\SDL-1.2.15\include" /I"D:\video\client\cmpeg-master\examples" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"sdl_player.dir\Debug\\" /Fd"sdl_player.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "D:\video\client\cmpeg-master\examples\main.cpp" "D:\video\client\cmpeg-master\examples\render_sdl.cpp"
+  
+  main.cpp
+  render_sdl.cpp
+  正在生成代码...
+  sdl_player.vcxproj -> D:\video\client\cmpeg-master\bin\Debug\sdl_player.exe
+  sdl_player.vcxproj -> D:/video/client/cmpeg-master/bin/Debug/sdl_player.pdb (Full PDB)

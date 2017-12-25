@@ -1,0 +1,4 @@
+D:/video/client/cmpeg-master/build/CMakeFiles/ALL_BUILD.dir
+D:/video/client/cmpeg-master/build/CMakeFiles/ZERO_CHECK.dir
+D:/video/client/cmpeg-master/build/cmpeg/CMakeFiles/cmpeg.dir
+D:/video/client/cmpeg-master/build/examples/CMakeFiles/sdl_player.dir

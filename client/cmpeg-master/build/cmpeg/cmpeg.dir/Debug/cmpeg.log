@@ -1,0 +1,29 @@
+﻿  Building Custom Rule D:/video/client/cmpeg-master/cmpeg/CMakeLists.txt
+  CMake does not need to re-run because D:/video/client/cmpeg-master/build/cmpeg/CMakeFiles/generate.stamp is up-to-date.
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"D:\video\client\cmpeg-master\cmpeg" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmpeg.dir\Debug\\" /Fd"cmpeg.dir\Debug\cmpeg.pdb" /Gd /TP /analyze- /errorReport:prompt "D:\video\client\cmpeg-master\cmpeg\bit_buffer.cpp" "D:\video\client\cmpeg-master\cmpeg\decoder_base.cpp" "D:\video\client\cmpeg-master\cmpeg\decoder_mpeg1.cpp" "D:\video\client\cmpeg-master\cmpeg\demuxer_ts.cpp" "D:\video\client\cmpeg-master\cmpeg\easywsclient.cpp" "D:\video\client\cmpeg-master\cmpeg\player.cpp" "D:\video\client\cmpeg-master\cmpeg\render_base.cpp"
+  
+  bit_buffer.cpp
+  decoder_base.cpp
+D:\video\client\cmpeg-master\cmpeg\decoder_base.cpp(27): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\video\client\cmpeg-master\cmpeg\decoder_base.cpp(58): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  decoder_mpeg1.cpp
+D:\video\client\cmpeg-master\cmpeg\decoder_mpeg1.cpp(842): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\video\client\cmpeg-master\cmpeg\decoder_mpeg1.cpp(888): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  demuxer_ts.cpp
+D:\video\client\cmpeg-master\cmpeg\demuxer_ts.cpp(98): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\video\client\cmpeg-master\cmpeg\demuxer_ts.cpp(100): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\video\client\cmpeg-master\cmpeg\demuxer_ts.cpp(104): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  easywsclient.cpp
+D:\video\client\cmpeg-master\cmpeg\easywsclient.cpp(413): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+  D:\video\client\cmpeg-master\cmpeg\easywsclient.cpp(332): note: 参见对正在编译的函数 模板 实例化“void `anonymous-namespace'::_RealWebSocket::sendData<std::_String_iterator<std::_String_val<std::_Simple_types<char>>>>(`anonymous-namespace'::_RealWebSocket::wsheader_type::opcode_type,uint64_t,Iterator,Iterator)”的引用
+          with
+          [
+              Iterator=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>
+          ]
+  player.cpp
+  render_base.cpp
+  正在生成代码...
+  cmpeg.vcxproj -> D:\video\client\cmpeg-master\lib\Debug\cmpeg.lib
