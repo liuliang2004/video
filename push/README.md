@@ -21,8 +21,12 @@ sudo reboot
 sudo apt-get install git   
 sudo apt-get install ffmpeg   
 ```
-
-## 下载代码  
+ 
+## 账号密码  
+账号 : pi   
+密码 : raspberry
+ 
+## 下载代码  
 登录系统后选择代码放置目录以 _/home_ 为例
 ```bash
 cd /home
