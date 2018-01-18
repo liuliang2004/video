@@ -2,15 +2,20 @@
 <head>
     <title>JSMPEG</title>
     <link rel="shortcut icon" href="/RES/img/logo.ico" type="image/x-icon" />
-    <script>
-    </script>
+	<style>
+		*{
+			padding:0;
+			border:0;
+			margin:0;
+		}
+	</style>
 </head>
 <body>
     <canvas id="video-canvas" style="width:100%;height:100%;"></canvas>
     <script type="text/javascript" src="/RES/js/jsmpeg.min.js"></script>
     <script type="text/javascript">
         var canvas = document.getElementById('video-canvas');
-        var url = 'ws://118.190.156.61:10002/camera_0';
+        var url = 'ws://wawadaren.ledo.com:10002/camera_0';
         var player = new JSMpeg.Player(url, {canvas: canvas});
     </script>
 </body>
